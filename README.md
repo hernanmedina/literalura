@@ -58,9 +58,9 @@ Estructura del Proyecto
 
 El proyecto está organizado de la siguiente manera:  
 
-src/main/java/com/example/library/  
+src/main/java/lite/med/literalura/  
 
-    LibraryApplication.java
+    LiteraluraApplication.java
     controller/
         BookController.java
     service/
@@ -77,7 +77,7 @@ src/main/java/com/example/library/
 
 Descripción de Clases  
 
-LibraryApplication: Clase principal para iniciar la aplicación Spring Boot.  
+LiteraluraApplication: Clase principal para iniciar la aplicación Spring Boot.  
 
 BookController:  
 Controlador REST que maneja las solicitudes HTTP.  
