@@ -1,7 +1,9 @@
 # literalura
 catalogo de libros (gutendex api)
-Al iniciar la aplicación, verás el siguiente menú en la consola:
-Opciones del programa:
+Al iniciar la aplicación, verás el siguiente menú en la consola:  
+
+Opciones del programa:  
+
 1. Buscar libro por título
 2. Listar libros registrados
 3. Listar autores registrados
@@ -10,12 +12,18 @@ Opciones del programa:
 6. Salir
 Seleccione una opción:
 
-Selecciona una opción ingresando el número correspondiente y sigue las instrucciones en pantalla.
-Además del menú de consola, la aplicación expone varios endpoints REST:
 
-Buscar libro por título
-GET /books/title/{title}
-Ejemplo:
+Selecciona una opción ingresando el número correspondiente y sigue las instrucciones en pantalla.  
+
+Además del menú de consola, la aplicación expone varios endpoints REST:  
+
+
+Buscar libro por título  
+
+GET /books/title/{title}  
+
+Ejemplo:  
+
 GET /books/title/Moby Dick
 
 Listar todos los libros
