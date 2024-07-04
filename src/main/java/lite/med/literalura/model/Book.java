@@ -1,25 +1,14 @@
 package lite.med.literalura.model;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+import java.util.List;
+
 public class Book {
     private String title;
+    private List<Author> authors;
     private String language;
-    private String author;
 
-    public String getAuthor() {
-        return author;
-    }
-
-    public void setAuthor(String author) {
-        this.author = author;
-    }
-
-    public String getLanguage() {
-        return language;
-    }
-
-    public void setLanguage(String language) {
-        this.language = language;
-    }
+    // Getters y setters
 
     public String getTitle() {
         return title;
@@ -29,6 +18,20 @@ public class Book {
         this.title = title;
     }
 
-    // Getters y setters
+    public List<Author> getAuthors() {
+        return authors;
+    }
+
+    public void setAuthors(List<Author> authors) {
+        this.authors = authors;
+    }
+
+    public String getLanguage() {
+        return language;
+    }
+
+    public void setLanguage(String language) {
+        this.language = language;
+    }
 }
 

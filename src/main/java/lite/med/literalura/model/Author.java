@@ -1,25 +1,16 @@
 package lite.med.literalura.model;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Author {
     private String name;
-    private String birthDate;
-    private String deathDate;
 
-    public String getDeathDate() {
-        return deathDate;
-    }
+    @JsonProperty("birth_year")
+    private Integer birthYear;
 
-    public void setDeathDate(String deathDate) {
-        this.deathDate = deathDate;
-    }
+    @JsonProperty("death_year")
+    private Integer deathYear;
 
-    public String getBirthDate() {
-        return birthDate;
-    }
-
-    public void setBirthDate(String birthDate) {
-        this.birthDate = birthDate;
-    }
+    // Getters y setters
 
     public String getName() {
         return name;
@@ -29,5 +20,19 @@ public class Author {
         this.name = name;
     }
 
-    // Getters y setters
+    public Integer getBirthYear() {
+        return birthYear;
+    }
+
+    public void setBirthYear(Integer birthYear) {
+        this.birthYear = birthYear;
+    }
+
+    public Integer getDeathYear() {
+        return deathYear;
+    }
+
+    public void setDeathYear(Integer deathYear) {
+        this.deathYear = deathYear;
+    }
 }
