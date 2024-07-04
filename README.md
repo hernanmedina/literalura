@@ -77,7 +77,7 @@ src/main/java/lite/med/literalura/
 
 <em> Descripción de Clases: </em>  
 
-*[LiteraluraApplication:] (#LiteraluraApplication:) 
+LiteraluraApplication:  
 Clase principal para iniciar la aplicación Spring Boot.  
 
 BookController:  
