@@ -1,5 +1,5 @@
-# literalura
-catalogo de libros (gutendex api)
+<em> literalura </em>
+<h1 align="center"> catalogo de libros (gutendex api) </h1>
 Al iniciar la aplicación, verás el siguiente menú en la consola:  
 
 Opciones del programa:  
@@ -75,9 +75,10 @@ src/main/java/lite/med/literalura/
         ConsoleMenu.java  
         
 
-Descripción de Clases  
+<em> Descripción de Clases: </em>  
 
-LiteraluraApplication: Clase principal para iniciar la aplicación Spring Boot.  
+*[LiteraluraApplication:] (#LiteraluraApplication:) 
+Clase principal para iniciar la aplicación Spring Boot.  
 
 BookController:  
 Controlador REST que maneja las solicitudes HTTP.  
