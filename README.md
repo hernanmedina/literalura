@@ -26,25 +26,40 @@ Ejemplo:
 
 GET /books/title/Moby Dick
 
-Listar todos los libros
-GET /books
+Listar todos los libros  
 
-Listar todos los autores
-GET /authors
+GET /books  
 
-Listar autores vivos en un determinado año
-GET /authors/alive?year={year}
-Ejemplo:
-GET /authors/alive?year=1900
 
-Listar libros por idioma
-GET /books/language/{language}
-Ejemplo:
-GET /books/language/en
+Listar todos los autores  
 
-Estructura del Proyecto
-El proyecto está organizado de la siguiente manera:
-src/main/java/com/example/library/
+GET /authors  
+
+
+Listar autores vivos en un determinado año  
+
+GET /authors/alive?year={year}  
+
+Ejemplo:  
+
+GET /authors/alive?year=1900  
+
+
+Listar libros por idioma  
+
+GET /books/language/{language}  
+
+Ejemplo:  
+
+GET /books/language/en  
+
+
+Estructura del Proyecto  
+
+El proyecto está organizado de la siguiente manera:  
+
+src/main/java/com/example/library/  
+
     LibraryApplication.java
     controller/
         BookController.java
@@ -57,15 +72,31 @@ src/main/java/com/example/library/
     util/
         GutendexClient.java
     menu/
-        ConsoleMenu.java
+        ConsoleMenu.java  
+        
 
-Descripción de Clases
-LibraryApplication: Clase principal para iniciar la aplicación Spring Boot.
-BookController: Controlador REST que maneja las solicitudes HTTP.
-BookService: Servicio que contiene la lógica de negocio.
-GutendexClient: Cliente que se comunica con la API de Gutendex.
-Book: Modelo que representa un libro.
-Author: Modelo que representa un autor.
-GutendexResponse: Modelo para mapear la respuesta de la API de Gutendex.
-ConsoleMenu: Clase que imprime el menú en consola y maneja la interacción del usuario.        
+Descripción de Clases  
+
+LibraryApplication: Clase principal para iniciar la aplicación Spring Boot.  
+
+BookController:  
+Controlador REST que maneja las solicitudes HTTP.  
+
+BookService:  
+Servicio que contiene la lógica de negocio.  
+
+GutendexClient:  
+Cliente que se comunica con la API de Gutendex.  
+
+Book:  
+Modelo que representa un libro.  
+
+Author:  
+Modelo que representa un autor.  
+
+GutendexResponse:  
+Modelo para mapear la respuesta de la API de Gutendex.  
+
+ConsoleMenu:  
+Clase que imprime el menú en consola y maneja la interacción del usuario.        
 
